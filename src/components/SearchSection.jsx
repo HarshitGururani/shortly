@@ -90,7 +90,7 @@ const SearchSection = () => {
           ' mb-24 flex md:flex-row flex-col gap-4 md:gap-0 justify-between text-sm px-4 mt-6'
         }
       >
-        {text && <p className='pointer-events-none'>{text}</p>}
+{/*         {text && <p className='pointer-events-none'>{text}</p>} */}
 
         <div className='flex items-center gap-4'>
           <p className='pointer-events-none text-emerald-500'>{newLink}</p>
