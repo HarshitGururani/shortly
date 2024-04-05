@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.boost-desktop {
+  background-image: url('../src//assets/bg-boost-desktop.svg');
+  background: no-repeat;
+  background-size: contain;
+}
+.boost-mobile {
+  background-image: url('../src//assets/bg-boost-mobile.svg');
+}
+.grid-col-4 {
+  grid-template-columns: 0.4fr 0.2fr 0.2fr 0.2fr 0.3fr;
+}
+.grid-col-1 {
+  grid-template-columns: repeat(4, 1fr);
+}
+.logo-img {
+  fill: white;
+}
+
+.input-transform {
+  transform: translate(-50%, -50%);
+}
+.toast {
+  background-color: rgb(143, 210, 143);
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+}
+
+.toast-icon svg {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+
+.toast-content {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
